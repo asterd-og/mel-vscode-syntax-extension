@@ -1,0 +1,26 @@
+{
+  "name": "mel-lang",
+  "displayName": "Mel Lang",
+  "description": "Syntax Highlighting for the Mel programming language",
+  "author": "Astrido",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "mel",
+      "aliases": ["Mel", "mel"],
+      "extensions": [".mel",".mh"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mel",
+      "scopeName": "source.mel",
+      "path": "./syntaxes/mel.tmLanguage.json"
+    }]
+  }
+}
