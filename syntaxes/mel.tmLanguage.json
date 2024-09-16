@@ -48,7 +48,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.mel",
-					"match": "\\b(if|while|import|for|ret|fn|var|break|continue)\\b"
+					"match": "\\b(if|else|while|import|for|ret|fn|var|break|continue)\\b"
 				},
 				{
 					"name": "keyword.mel",
