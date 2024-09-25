@@ -9,13 +9,13 @@
 			"include": "#operators"
 		},
 		{
+			"include": "#keywords"
+		},
+		{
 			"include": "#functions"
 		},
 		{
 			"include": "#strings"
-		},
-		{
-			"include": "#keywords"
 		},
 		{
 			"include": "#object-types"
@@ -52,7 +52,7 @@
 				},
 				{
 					"name": "keyword.mel",
-					"match": "\\b(struct|packed|extern|align)\\b"
+					"match": "\\b(struct|packed|extern|align|sizeof)\\b"
 				},
 				{
 					"name": "keyword.type.mel",
