@@ -52,7 +52,7 @@
 				},
 				{
 					"name": "keyword.mel",
-					"match": "\\b(struct|packed|extern|align|sizeof)\\b"
+					"match": "\\b(struct|packed|extern|align|sizeof|true|false)\\b"
 				},
 				{
 					"name": "keyword.type.mel",
