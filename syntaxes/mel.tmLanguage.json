@@ -48,11 +48,11 @@
 			"patterns": [
 				{
 					"name": "keyword.control.mel",
-					"match": "\\b(if|else|while|import|for|ret|fn|var|break|continue)\\b"
+					"match": "\\b(if|else|while|import|for|ret|fn|var|break|continue|switch)\\b"
 				},
 				{
 					"name": "keyword.mel",
-					"match": "\\b(struct|packed|extern|align|sizeof|true|false)\\b"
+					"match": "\\b(struct|packed|extern|align|sizeof|true|false|enum)\\b"
 				},
 				{
 					"name": "keyword.type.mel",
